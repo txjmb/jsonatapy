@@ -6,7 +6,14 @@
       "Bash(git config:*)",
       "Bash(git commit:*)",
       "Bash(git submodule add:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(cargo test:*)",
+      "Bash(where cargo:*)",
+      "Bash(powershell -Command \"cd ''C:\\\\Users\\\\mboha\\\\source\\\\repos\\\\jsonatapy''; cargo test --lib parser\")",
+      "Bash(dir \"C:\\\\Users\\\\mboha\\\\source\\\\repos\\\\jsonatapy\")",
+      "Bash(dir \"C:\\\\Users\\\\mboha\\\\source\\\\repos\\\\jsonatapy\\\\*.bat\")",
+      "Bash(rustc:*)",
+      "Bash(cargo check:*)"
     ]
   }
 }
