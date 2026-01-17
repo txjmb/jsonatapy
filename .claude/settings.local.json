@@ -13,7 +13,17 @@
       "Bash(dir \"C:\\\\Users\\\\mboha\\\\source\\\\repos\\\\jsonatapy\")",
       "Bash(dir \"C:\\\\Users\\\\mboha\\\\source\\\\repos\\\\jsonatapy\\\\*.bat\")",
       "Bash(rustc:*)",
-      "Bash(cargo check:*)"
+      "Bash(cargo check:*)",
+      "Bash(maturin develop:*)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(uv pip install:*)",
+      "Bash(uv venv:*)",
+      "Bash(source .venv/Scripts/activate)",
+      "Bash(source \"$HOME/.cargo/env\")",
+      "Bash(cargo --version:*)",
+      "Bash(echo:*)",
+      "Bash(wsl.exe --list:*)",
+      "Bash(wsl.exe:*)"
     ]
   }
 }
