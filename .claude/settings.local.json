@@ -23,7 +23,8 @@
       "Bash(cargo --version:*)",
       "Bash(echo:*)",
       "Bash(wsl.exe --list:*)",
-      "Bash(wsl.exe:*)"
+      "Bash(wsl.exe:*)",
+      "Bash(wc:*)"
     ]
   }
 }
