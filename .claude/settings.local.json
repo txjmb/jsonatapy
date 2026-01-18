@@ -24,7 +24,15 @@
       "Bash(echo:*)",
       "Bash(wsl.exe --list:*)",
       "Bash(wsl.exe:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(node --version:*)",
+      "Bash(python:*)",
+      "Bash(uv run:*)",
+      "Bash(wsl cd /mnt/c/Users/mboha/source/repos/jsonatapy '&&' cargo test test_array_mapping -- --nocapture)",
+      "Bash(wsl \"cd /mnt/c/Users/mboha/source/repos/jsonatapy && cargo test test_array_mapping -- --nocapture\")",
+      "Bash(powershell.exe -Command \"wsl cd /mnt/c/Users/mboha/source/repos/jsonatapy ''&&'' cargo test test_array_mapping -- --nocapture\")",
+      "Bash(powershell.exe -Command \"wsl pwd\")",
+      "Bash(powershell.exe -Command \"wsl cargo test test_array_mapping -- --nocapture\")"
     ]
   }
 }
