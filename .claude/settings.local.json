@@ -32,7 +32,20 @@
       "Bash(wsl \"cd /mnt/c/Users/mboha/source/repos/jsonatapy && cargo test test_array_mapping -- --nocapture\")",
       "Bash(powershell.exe -Command \"wsl cd /mnt/c/Users/mboha/source/repos/jsonatapy ''&&'' cargo test test_array_mapping -- --nocapture\")",
       "Bash(powershell.exe -Command \"wsl pwd\")",
-      "Bash(powershell.exe -Command \"wsl cargo test test_array_mapping -- --nocapture\")"
+      "Bash(powershell.exe -Command \"wsl cargo test test_array_mapping -- --nocapture\")",
+      "Bash(pip install:*)",
+      "Bash(where:*)",
+      "Bash(.venvScriptspython test_trace.py)",
+      "Bash(wsl bash -c \"cd /mnt/c/Users/mboha/source/repos/jsonatapy && source ~/.cargo/env && uv run maturin develop --release 2>&1 | tail -10\")",
+      "Bash(wsl -e sh -c \"cd /mnt/c/Users/mboha/source/repos/jsonatapy && source ~/.cargo/env && uv run maturin develop --release 2>&1 | tail -10\")",
+      "Bash(wsl ls:*)",
+      "Bash(wsl pwd:*)",
+      "Bash(ls:*)",
+      "Bash(wsl -e bash -c \"cd /mnt/c/Users/mboha/source/repos/jsonatapy && maturin develop --release\":*)",
+      "Bash(wsl cd /mnt/c/Users/mboha/source/repos/jsonatapy '&&' maturin develop --release)",
+      "Bash(wsl -d ubuntu bash -c \"cd /mnt/c/Users/mboha/source/repos/jsonatapy && pwd && maturin develop --release\":*)",
+      "Bash(wsl -d ubuntu bash:*)",
+      "Bash(wsl:*)"
     ]
   }
 }
