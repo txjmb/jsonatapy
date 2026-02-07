@@ -99,7 +99,11 @@
       "Bash(gh run list:*)",
       "Bash(sudo mkdir:*)",
       "Bash(gh run view:*)",
-      "Bash(cargo fmt:*)"
+      "Bash(cargo fmt:*)",
+      "Bash(cargo install:*)",
+      "Bash(cargo deny:*)",
+      "Bash(deny.toml:*)",
+      "Bash(cargo update:*)"
     ]
   }
 }
